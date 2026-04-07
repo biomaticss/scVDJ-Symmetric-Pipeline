@@ -1,5 +1,5 @@
 # scVDJ Symmetric Pipeline: Single-Cell Antibody Repertoire Profiling
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ##  Background & Significance
 High-throughput single-cell V(D)J sequencing is paramount for understanding adaptive immune responses and discovering therapeutic monoclonal antibodies (mAbs). Traditional bulk sequencing loses the critical native pairing of Heavy (VH) and Light (VK/VL) chains. 
 
@@ -86,6 +86,8 @@ Upon successful execution, the `results/` directory will contain:
    * `05_Mutation_Hotspots_Profiler.png`: A comprehensive diagnostic heatmap tracking truncation, frameshifts, and nonsense mutations across the 5'->3' antibody topology (FR1 to FR4).
 
 ##  License & Citation
-*( MIT)*
+This project is licensed under the [MIT License](LICENSE) - see the `LICENSE` file for details. 
+
+Copyright (c) 2026 [yuting han]
 
 If you utilize this pipeline in your research for antibody discovery or epitope mapping, please consider citing this repository.
