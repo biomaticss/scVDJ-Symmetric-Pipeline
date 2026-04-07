@@ -1,0 +1,19 @@
+# Sequencing data
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+
+# Pipeline intermediate & output files
+results/
+*.vdjca
+*_tmp.fasta
+*_tmp.tsv
+*.json
+
+# Ignore large CSVs but maybe keep small reports (optional)
+# *.csv 
+
+# OS generated files
+.DS_Store
+__pycache__/
